@@ -4,7 +4,7 @@ import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 export default function HomeScreen({ navigation }) {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Gut victory squad</Text>
+            <Text style={styles.title}>Gut Hero Squad</Text>
             <TouchableOpacity
                 style={styles.button}
                 onPress={() => navigation.navigate('Test')}
